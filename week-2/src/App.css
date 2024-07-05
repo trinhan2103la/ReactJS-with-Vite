@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+@layer basse {
+  body {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .card {
+    @apply border p-1  rounded-md shadow-md shadow-slate-600  overflow-hidden hover:shadow-lg hover:shadow-slate-950;
+  }
+}
