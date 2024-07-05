@@ -6,11 +6,11 @@ import SideBar from "../DefaultLayout/SideBar/index";
 
 export default function DefaultLayout({ children }) {
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <Header />
-      <div className="container">
+      <div className="h-32 w-[1150px] flex">
         <SideBar />
-        <div className="content">{children}</div>
+        <div className="flex-1">{children}</div>
       </div>
     </div>
   );

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  // Default Layout
+  .sizeDefault {
+    @apply h-16 w-[1150px];
+  }
+}
