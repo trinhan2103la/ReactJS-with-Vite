@@ -8,7 +8,7 @@ export default function DefaultLayout({ children }) {
   return (
     <div className="flex flex-col items-center">
       <Header />
-      <div className="h-32 w-[1150px] flex">
+      <div className="h-32 w-[71.875rem] flex">
         <SideBar />
         <div className="flex-1">{children}</div>
       </div>
