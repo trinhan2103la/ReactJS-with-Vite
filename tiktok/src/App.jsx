@@ -7,7 +7,7 @@ import { Defaultlayout } from "./components/layout";
 export default function App() {
   return (
     <Router>
-      <div className="box-border m-0 p-0">
+      <div>
         <Routes>
           {publicRoutes.map((route, index) => {
             let Layout = Defaultlayout;
