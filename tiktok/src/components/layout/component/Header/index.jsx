@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import images from "../../../../assets/images";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -6,6 +7,7 @@ import {
   faMagnifyingGlass,
   faSpinner,
 } from "@fortawesome/free-solid-svg-icons";
+import Tippy from "@tippyjs/react/headless";
 
 export default function Header() {
   return (
@@ -14,7 +16,7 @@ export default function Header() {
         <div className="logo">
           <img src={images.logo} alt="tikTok" />
         </div>
-        <div className="flex w-[22.5625rem] h-[2.875rem] bg-colorSearch rounded-[5.75rem] pl-4 relative">
+        <div className="flex w-[22.5625rem] h-[2.875rem] bg-colorSearch rounded-[5.75rem] pl-4 relative borDer focus:border-colorl">
           <input
             type="text"
             placeholder="Search accounts anh videos"

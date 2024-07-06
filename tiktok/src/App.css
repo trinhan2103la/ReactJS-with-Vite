@@ -7,4 +7,7 @@
   .sizeDefault {
     @apply h-16 w-[1150px];
   }
+  .borDer {
+    @apply border-solid border-transparent border;
+  }
 }
